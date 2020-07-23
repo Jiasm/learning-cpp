@@ -12,9 +12,11 @@ int main(){
 
     printf("sizeof(int)=%d\n",sizeof(static_cast<int>(a)));
     printf("sizeof(long)=%d\n",sizeof(static_cast<long>(a)));
+    printf("sizeof(short)=%d\n",sizeof(static_cast<short>(a)));
 
     cout << std::to_string(static_cast<int>(a)) << endl;
     cout << std::to_string(static_cast<long>(a)) << endl;
+    cout << std::to_string(static_cast<short>(a)) << endl;
 
     return 0;
 }
