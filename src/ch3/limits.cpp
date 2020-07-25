@@ -30,5 +30,11 @@ int main() {
     cout << "Minimum int value = " << INT_MIN << endl;
     cout << "Bits per byte = " << CHAR_BIT << endl;
 
+    cout << (sizeof (uint32_t)) << endl;
+    cout << ((sizeof (uint32_t)) * 8) << endl;
+    cout << (((sizeof (uint32_t)) * 8) + 2) << endl;
+    cout << (((sizeof (uint32_t)) * 8) + 2) / 3 << endl;
+    cout << (((sizeof (uint32_t)) * 8) + 2) / 3 + 2 << endl;
+
     return 0;
 }
