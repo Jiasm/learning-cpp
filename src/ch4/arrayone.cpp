@@ -25,6 +25,7 @@ int main() {
     total = total + yams[2] * yamcosts[2];
 
     cout << "The total yam expense is " << total << " cents.\n";
+
     cout << "\nSize of yams array = " << sizeof yams;
     cout << " bytes.\n";
     cout << "Size of one element = " << sizeof yams[0];
